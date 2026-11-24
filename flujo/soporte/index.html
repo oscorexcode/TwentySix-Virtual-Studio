@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soporte · Flujo</title>
+<meta name="description" content="Ayuda y contacto de Flujo - Control de Gastos para iPhone y iPad.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f5f3fa;
+    --text: #1c1b1f;
+    --muted: #5f5b66;
+    --accent: #6b55a3;
+    --border: #e4e0ee;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121114;
+      --surface: #1e1c23;
+      --text: #f2f0f5;
+      --muted: #aaa5b3;
+      --accent: #b9a8e8;
+      --border: #2e2b35;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 20px 64px;
+  }
+  .app {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .02em;
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 12px;
+    letter-spacing: -.01em;
+  }
+  .intro { color: var(--muted); margin: 0 0 32px; }
+  .contacto {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px 22px;
+    margin: 0 0 40px;
+  }
+  .contacto h2 { margin-top: 0; font-size: 19px; }
+  .correo {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 4px 0 12px;
+    word-break: break-all;
+  }
+  .contacto ul { margin: 0; padding-left: 20px; }
+  h2 {
+    font-size: 22px;
+    line-height: 1.25;
+    margin: 40px 0 4px;
+  }
+  h3 { font-size: 17px; margin: 28px 0 6px; }
+  p, ul, ol { margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="app">Flujo - Control de Gastos</p>
+  <h1>Soporte</h1>
+  <p class="intro">¿Tienes una duda, encontraste un error o quieres proponer una mejora? Aquí tienes respuestas a las preguntas más comunes y la forma de escribirnos.</p>
+
+  <section class="contacto">
+    <h2>Escríbenos</h2>
+    <a class="correo" href="mailto:oscore_mendoza@me.com?subject=Soporte%20Flujo">oscore_mendoza@me.com</a>
+    <p>Para ayudarte más rápido, incluye:</p>
+    <ul>
+      <li>El modelo de tu iPhone o iPad y tu versión de iOS.</li>
+      <li>Qué estabas haciendo y qué esperabas que pasara.</li>
+      <li>Una captura de pantalla, si ayuda a explicarlo.</li>
+    </ul>
+  </section>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <h3>¿Dónde están los Ajustes?</h3>
+  <p>En la pestaña <strong>Resumen</strong>, toca el engrane de la esquina superior.</p>
+
+  <h3>¿Cómo paso mis datos a otro iPhone o iPad?</h3>
+  <p>Flujo no usa cuentas ni sincroniza entre dispositivos: tu información vive solo en el dispositivo donde la capturas. Para pasarla a otro:</p>
+  <ol>
+    <li>En el dispositivo actual, ve a <strong>Ajustes → Respaldo → Exportar respaldo</strong> y guarda el archivo, por ejemplo en Archivos o en iCloud Drive.</li>
+    <li>En el dispositivo nuevo, abre Flujo y ve a <strong>Ajustes → Respaldo → Importar respaldo</strong>.</li>
+  </ol>
+  <p>El respaldo incluye tu configuración, gastos, tickets, tarjetas y preferencias. Importarlo <strong>reemplaza</strong> la información que haya en ese dispositivo.</p>
+
+  <h3>¿Cómo exporto un reporte en PDF o CSV?</h3>
+  <p>En la pestaña <strong>Reportes</strong>, abre el reporte del periodo o el cierre anual y toca <strong>Exportar</strong>. Puedes elegir qué formato aparece primero en <strong>Ajustes → Reportes → Formato preferido</strong>. El CSV se abre en Excel, Numbers o Google Sheets.</p>
+
+  <h3>No me llegan los avisos de presupuesto</h3>
+  <ol>
+    <li>En Flujo, revisa que esté activado <strong>Ajustes → Notificaciones → Avisos de presupuesto</strong>.</li>
+    <li>En los Ajustes del iPhone, entra a <strong>Notificaciones → Flujo</strong> y verifica que estén permitidas.</li>
+    <li>Revisa que no tengas activo un modo de concentración que las silencie.</li>
+  </ol>
+  <p>Los avisos llegan al 80 %, al 90 % y al llegar al límite del periodo o de una categoría.</p>
+
+  <h3>¿Cómo activo los recordatorios de mis tarjetas?</h3>
+  <p>En la configuración de cada tarjeta, activa <strong>Recordatorios de corte y pago</strong>. Flujo te avisará antes de la fecha de corte y de la fecha de pago.</p>
+
+  <h3>¿Cómo protejo Flujo con Face ID?</h3>
+  <p>Activa <strong>Ajustes → Seguridad → Pedir Face ID al abrir</strong>. Si Face ID no te reconoce, puedes entrar con el código de tu iPhone o iPad.</p>
+
+  <h3>¿Cómo agrego un widget?</h3>
+  <ul>
+    <li><strong>Pantalla de inicio:</strong> mantén presionado un espacio vacío, toca <strong>Editar → Agregar widget</strong>, busca Flujo y elige el tamaño.</li>
+    <li><strong>Pantalla de bloqueo:</strong> mantén presionada la pantalla bloqueada, toca <strong>Personalizar</strong>, elige la pantalla de bloqueo y agrega el widget de Flujo.</li>
+  </ul>
+  <p>Ten en cuenta que los widgets de la pantalla de bloqueo se ven sin desbloquear el dispositivo.</p>
+
+  <h3>¿Qué hace «Reiniciar periodo»?</h3>
+  <p>Archiva los gastos del periodo actual y te pide registrar un ingreso nuevo. Los gastos archivados se siguen viendo en los reportes. No se puede deshacer.</p>
+
+  <h3>¿Cómo borro toda mi información?</h3>
+  <p>Elimina la app de tu dispositivo: se borra todo lo que Flujo guardó, incluidas las fotos de tickets. Si quieres conservar tu información, exporta un respaldo antes.</p>
+
+  <h3>¿Flujo envía mis datos a algún lado?</h3>
+  <p>No. Flujo no tiene cuentas ni servidores y no se conecta a internet. Lee los detalles en la <a href="../privacidad/">política de privacidad</a>.</p>
+
+  <footer>© 2026 TwentySix. Flujo - Control de Gastos · <a href="../privacidad/">Política de privacidad</a></footer>
+</main>
+</body>
+</html>
